@@ -1,18 +1,12 @@
 const images = document.querySelectorAll('.content__slider .slider-line img');
 const sliderLine = document.querySelector('.content__slider .slider-line');
-const sliderImages = document.querySelector('.slider-line')
 const sliderGallery = document.querySelector('.slider-gallery')
 const imgs = sliderLine.querySelectorAll('img');
 
 const container = document.querySelector('.container')
 const menu = document.querySelector('.menu')
 const menuBtn = document.querySelector(".header__menu")
-const header = document.querySelector('.header')
-const menuClose = document.querySelector('.menu__close')
 const menuHeader = document.querySelector('.menu__header')
-const content = document.querySelector('.content')
-const footerAdaptive = document.querySelector('.footer_adaptive--360')
-
 
 menuBtn.addEventListener('click', function () {
   menuHeader.style.display = 'none'
